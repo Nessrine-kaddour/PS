@@ -1,0 +1,14 @@
+CXX = g++
+CXXFLAGS = -O2 -Wall
+TARGET = my_controller
+
+SOURCES = my_controller.cpp
+OBJECTS = $(SOURCES:.cpp=.o)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJECTS) -lController
+
+clean:
+	rm -f $(TARGET) $(OBJECTS)

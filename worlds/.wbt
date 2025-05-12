@@ -1,0 +1,520 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/PicketFence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Cypress.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Cat.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/SwingCouch.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Swing.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/SoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/rocks/protos/Rock.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/Bench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/plants/protos/FlowerPot.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/nvidia/jetbot/protos/JetBotRaspberryPiCamera.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position -3.659184639909709 -7.933089250880258 4.0479364855106965
+}
+TexturedBackground {
+}
+Swing {
+  translation 8.91 0 0
+}
+TexturedBackgroundLight {
+}
+DEF Body Floor {
+  size 20 20
+  appearance Parquetry {
+    type "light strip"
+    colorOverride 0.0980392 0.443137 0.12549
+  }
+}
+FlowerPot {
+  translation 6.18 -8.31 0
+}
+Table {
+  translation 1.49 6.78 0
+  rotation 0 0 1 -1.5707953071795862
+}
+Bench {
+  translation -9.41 0.45 0
+}
+Rock {
+  translation -4.2 0 0
+}
+SoccerBall {
+  translation 0 5.25957962444019 0.11205824000000002
+  rotation 1 0 0 0.4472945365530811
+}
+SwingCouch {
+  translation 1.22426 8.49902 0
+  rotation 0 0 -1 1.5708
+}
+PicketFence {
+  translation -10.07 10.08 0
+}
+PicketFence {
+  translation -10.08 8.39 0
+  name "picket fence(1)"
+}
+Cypress {
+  translation -9 7.92 0
+}
+Cypress {
+  translation -9 -8.45 0
+  name "cypress tree(2)"
+}
+Cypress {
+  translation 8.12 8.27 0
+  name "cypress tree(1)"
+}
+PicketFence {
+  translation -10.07 6.78 0
+  name "picket fence(2)"
+}
+PicketFence {
+  translation -10.07 5.12 0
+  name "picket fence(3)"
+}
+PicketFence {
+  translation -10.07 3.55 0
+  name "picket fence(4)"
+}
+PicketFence {
+  translation -10.07 1.81 0
+  name "picket fence(5)"
+}
+PicketFence {
+  translation -10.07 0.1 0
+  name "picket fence(6)"
+}
+PicketFence {
+  translation -10.07 -1.71 0
+  name "picket fence(7)"
+}
+PicketFence {
+  translation -10.07 -3.3 0
+  name "picket fence(8)"
+}
+PicketFence {
+  translation -10.07 -4.9 0
+  name "picket fence(9)"
+}
+PicketFence {
+  translation -10.07 -6.62 0
+  name "picket fence(10)"
+}
+PicketFence {
+  translation -10.07 -8.28 0
+  name "picket fence(11)"
+}
+PicketFence {
+  translation 9.93 -8.28 0
+  name "picket fence(24)"
+}
+PicketFence {
+  translation 9.93 -6.64 0
+  name "picket fence(25)"
+}
+PicketFence {
+  translation 9.93 -4.96 0
+  name "picket fence(26)"
+}
+PicketFence {
+  translation 9.93 -3.2 0
+  name "picket fence(27)"
+}
+PicketFence {
+  translation 9.93 -1.53 0
+  name "picket fence(28)"
+}
+PicketFence {
+  translation 9.93 0.09 0
+  name "picket fence(29)"
+}
+PicketFence {
+  translation 9.93 1.68 0
+  name "picket fence(30)"
+}
+PicketFence {
+  translation 9.93 3.35 0
+  name "picket fence(31)"
+}
+PicketFence {
+  translation 9.93 5 0
+  name "picket fence(32)"
+}
+PicketFence {
+  translation 9.93 6.61 0
+  name "picket fence(33)"
+}
+PicketFence {
+  translation 9.93 8.27 0
+  name "picket fence(34)"
+}
+PicketFence {
+  translation 9.93 9.89 0
+  name "picket fence(35)"
+}
+PicketFence {
+  translation -10.1082 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(12)"
+}
+PicketFence {
+  translation -8.51817 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(13)"
+}
+PicketFence {
+  translation -6.82817 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(14)"
+}
+PicketFence {
+  translation -5.17817 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(15)"
+}
+PicketFence {
+  translation -3.48817 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(16)"
+}
+PicketFence {
+  translation -1.77817 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(17)"
+}
+PicketFence {
+  translation -0.10817 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(18)"
+}
+PicketFence {
+  translation 1.56183 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(19)"
+}
+PicketFence {
+  translation 3.29183 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(20)"
+}
+PicketFence {
+  translation 4.96183 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(21)"
+}
+PicketFence {
+  translation 6.61183 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(22)"
+}
+PicketFence {
+  translation 8.30183 -9.95593 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(23)"
+}
+PicketFence {
+  translation 8.30183 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(36)"
+}
+PicketFence {
+  translation 6.56183 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(37)"
+}
+PicketFence {
+  translation 4.93183 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(38)"
+}
+PicketFence {
+  translation 3.25183 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(39)"
+}
+PicketFence {
+  translation 1.69183 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(40)"
+}
+PicketFence {
+  translation -0.01817 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(41)"
+}
+PicketFence {
+  translation -1.62817 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(42)"
+}
+PicketFence {
+  translation -3.36817 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(43)"
+}
+PicketFence {
+  translation -4.90817 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(44)"
+}
+PicketFence {
+  translation -6.53817 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(45)"
+}
+PicketFence {
+  translation -8.21817 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(46)"
+}
+PicketFence {
+  translation -9.9682 9.89407 0
+  rotation 0 0 -1 -1.5708053071795867
+  name "picket fence(47)"
+}
+Cat {
+  translation 0 -5.24 0
+  color 1 0.1 1
+}
+Robot {
+  translation -3.6602 -7.93374 0.0397854
+  rotation 7.003516508151682e-05 -1.6468994936660778e-05 -0.9999999974119239 0.4684758087669934
+  children [
+    DEF body Shape {
+      appearance PBRAppearance {
+        baseColor 0.258824 0.258824 0.388235
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.2 0.05
+      }
+    }
+    DEF camera JetBotRaspberryPiCamera {
+      translation 9.17658e-08 -0.09 0.04
+      rotation 0 0 1 -1.5707953071795862
+      fieldOfView 1.578
+      width 640
+      height 480
+      far 100
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 340.64273972444465
+        anchor 0.06 0.05 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.06000024080850991 0.050000481051727164 3.882818225546536e-06
+        rotation 0.5304144066680934 0.6616411146726224 0.5299920684064092 1.971828894044521
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.2 0.203922 0.207843
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        boundingObject USE wheel
+        physics DEF physics_wheel Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 7065.619791185972
+        anchor -0.06 0.05 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        translation -0.05998941696237092 0.050015986173058025 5.667083316784893e-07
+        rotation 0.7059924571174135 -0.06290999876161102 0.7054197208393956 -3.0158053685404105
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.2 0.2 0.2
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(1)"
+        boundingObject DEF wheel Shape {
+          appearance PBRAppearance {
+            baseColor 0.2 0.2 0.2
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.02
+            radius 0.04
+          }
+        }
+        physics DEF physics_wheel Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 7065.620245333396
+        anchor 0.06 -0.05 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        translation 0.05999975949103198 -0.049999516711197955 3.948071133824671e-06
+        rotation 0.7059795283311824 -0.06307915353166331 0.7054175543371529 -3.0155014708940038
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.2 0.2 0.2
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(2)"
+        boundingObject DEF wheel Shape {
+          appearance PBRAppearance {
+            baseColor 0.2 0.2 0.2
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.02
+            radius 0.04
+          }
+        }
+        physics DEF physics_wheel Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 7065.621325983437
+        anchor -0.06 -0.05 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        translation -0.060000240448406406 -0.049998942994665896 3.947794370739999e-06
+        rotation 0.705962366444188 -0.06346183190390943 0.7054004061920591 -3.0147385633721004
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.2 0.2 0.2
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(3)"
+        boundingObject DEF wheel Shape {
+          appearance PBRAppearance {
+            baseColor 0.2 0.2 0.2
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.02
+            radius 0.04
+          }
+        }
+        physics DEF physics_wheel Physics {
+        }
+      }
+    }
+    DistanceSensor {
+      translation -0.0323422 -0.103618 0.01
+      rotation 0.15803703598867205 -0.46432810573820127 -0.8714491984490484 1.89402
+      children [
+        DEF sensor Shape {
+          appearance PBRAppearance {
+            baseColor 0.7 0.6 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_left"
+      boundingObject USE sensor
+      physics Physics {
+      }
+    }
+    DistanceSensor {
+      translation 0.0340303 -0.101709 0.00450682
+      rotation 0.7061447259205701 -0.6458207493344121 -0.2903018873236988 2.17574
+      children [
+        DEF sensor Shape {
+          appearance PBRAppearance {
+            baseColor 0.7 0.6 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_right"
+      boundingObject USE sensor
+      physics Physics {
+      }
+    }
+    GPS {
+      children [
+        Solid {
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.02
+                radius 0.01
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+  }
+  controller "obstacle_avoidance"
+}
